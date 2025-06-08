@@ -35,11 +35,12 @@ See the [`requirements.txt`](./requirements.txt) for full list.
 
 ## 🛠️ Setup Instructions
 
-### ✅ Using Google Colab (Recommended)
+### ✅ Using Google Colab
 
-1. Open the notebook in Google Colab.
-2. Upload the dataset file `spam_or_not_spam.csv` when prompted.
-3. Run all cells in sequence.
+1. Open the [notebook](https://colab.research.google.com/drive/1tE-1aEUiC4OAEFZghhEoUYqNeHYMxLiK?usp=sharing) in Google Colab.
+2. Save a copy to GoogleColab.
+3. Upload the dataset file `spam_or_not_spam.csv` when prompted.
+4. Run all cells in sequence.
 
 ### 💻 Local Setup
 
@@ -50,10 +51,9 @@ See the [`requirements.txt`](./requirements.txt) for full list.
 pip install -r requirements.txt
 ```
 
-3. Run the Python script or convert the notebook to `.py` using:
+3. Run the Python script using:
 
 ```bash
-jupyter nbconvert --to script SpamDetection.ipynb
 python SpamDetection.py
 ```
 
